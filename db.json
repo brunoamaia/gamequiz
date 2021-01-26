@@ -31,6 +31,17 @@
   ],
   "theme": {
     "colors": {
+      "primary": "#8AFCFC",
+      "secondary": "#DF79D9",
+      "mainBg": "#171B35",
+      "contrastText": "#DD6EBC",
+      "wrong": "#FF0100",
+      "success": "#00D040"
+    },
+    "borderRadius": "4px"
+  },
+  "theme0": {
+    "colors": {
       "primary": "#0d47a1",
       "secondary": "#29b6f6",
       "mainBg": "#171B35",
