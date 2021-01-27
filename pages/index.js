@@ -3,8 +3,10 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import db from '../db.json';
+import Button from '../src/components/Button';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
 import QuizLogo from '../src/components/QuizLogo';
@@ -36,16 +38,15 @@ export default function Home() {
               router.push(`/quiz?name=${name}`);
             }}
             >
-              <input
-                // eslint-disable-next-line func-names
-                onChange={function (infosEvent) {
-                  setName(infosEvent.target.value);
-                }}
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosEvent) => setName(infosEvent.target.value)}
                 placeholder="Qual seu nome?"
+                value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
+              <Button type="submit" disabled={name.length === 0}>
                 {`Bora ${name}`}
-              </button>
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
