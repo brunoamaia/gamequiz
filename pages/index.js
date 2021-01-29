@@ -7,6 +7,7 @@ import Button from '../src/components/Button';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
+import Link from '../src/components/Link';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
 import QuizLogo from '../src/components/QuizLogo';
@@ -63,7 +64,10 @@ export default function Home() {
 
                 return (
                   <li key={linkExterno}>
-                    <Widget.Topic href={`./quiz/${projectName}___${githubUser}?name=desafiante`}>
+                    <Widget.Topic
+                      as={Link}
+                      href={`./quiz/${projectName}___${githubUser}?name=desafiante`}
+                    >
                       {`${githubUser}/${projectName}`}
                     </Widget.Topic>
                   </li>
