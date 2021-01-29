@@ -33,7 +33,7 @@ function ResultWidget({ name, results, totalQuestions }) {
           {response === 0 && `${name}, tente novamente.`}
           {response === 1 && `Tente novamente ${name}, você acertou ${acertos} questão de ${totalQuestions}`}
           {response === 2 && `Boa ${name}, você acertou ${acertos} questões de ${totalQuestions}`}
-          {response === 3 && `Parabéns ${name}!!! você acertou todas as questões.`}
+          {response === 3 && `Parabéns ${name}!!! você acertou TODAS as questões. Que orgulho!!!`}
         </h3>
 
         <br />

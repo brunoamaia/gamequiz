@@ -45,7 +45,7 @@ function QuestionWidget({
       <Widget.Header>
         <h1>
           <ArrowLeft>
-            <button type="button" onClick={() => Router.push('./')}>
+            <button type="button" onClick={() => Router.push('../')}>
               &lArr;
             </button>
             {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
