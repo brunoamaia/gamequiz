@@ -4,31 +4,130 @@
   "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://media.giphy.com/media/hqyghxPJECiDt3VITP/giphy.gif",
+      "title": "Qual foi a mecânica inovadora de Mortal Kombat que marcou o jogo desde a sua primeira versão?",
+      "description": "Vamos lavar bem as mãos!",
+      "answer": 3,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Animality",
+        "Babality",
+        "Brutality",
+        "Fatality"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://i.gifer.com/83yX.gif",
+      "title": "O primeiro jogo da franquia “The King of Fighters” foi em que ano?",
+      "description": "Usava que trio?",
+      "answer": 2,
+      "alternatives": [
+        "1991",
+        "1992",
+        "1994",
+        "1997"
+      ]
+    },
+    {
+      "image": "https://i.gifer.com/EaVW.gif",
+      "title": "O jogo “Final Fight” tinha como propósito inicial ser a continuação de qual jogo?",
+      "description": "Fique em casa se puder, sair na rua é meio perigoso! '-'",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "Street Fighter",
+        "Tekken",
+        "The King of Fighters",
+        "Metal Slug"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/5h9rfUCaJf916/giphy.gif",
+      "title": "O lutador “Fei Long” foi baseado em qual pessoa?",
+      "description": "Blanka é o perongem favorito do Yoshinori Ono.",
+      "answer": 1,
+      "alternatives": [
+        "Mike Tyson",
+        "Bruce Lee",
+        "Roy Jones",
+        "Chuck Norris"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/3ohfFHbd1W4otQNChO/giphy-downsized.gif",
+      "title": "No jogo “Cruis'n USA” qual é a última cidade que corremos?",
+      "description": "Parece um bom dia para atravessar o país dirigindo",
+      "answer": 3,
+      "alternatives": [
+        "Nova Iorque",
+        "Chicago",
+        "São Francisco",
+        "Washington, D.C."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/l2JeeeW1EKTW4CVDq/giphy-downsized.gif",
+      "title": "Qual membro da família Simpson foi sequestrado, fazendo com que os demais tentem salvar?",
+      "description": "Foi lançada uma versão remasterizada para o Xbox 360 e o Play Station 3 ",
+      "answer": 0,
+      "alternatives": [
+        "Maggie",
+        "Lisa",
+        "Bart",
+        "Marge"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/cURniqryVHDTTF3uj2/giphy.gif",
+      "title": "O jogo “Teenage Mutant Ninja Turtles” pode ser jogado por até quantas pessoas?",
+      "description": "Quem paga a pizza hoje?",
+      "answer": 3,
+      "alternatives": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/p6jQUdpkStYhW/giphy.gif",
+      "title": "De que país era o principal vilão (General Donald Morden) do jogo Metal Slug?",
+      "description": "Muita gente acha ele parecido com o Saddam Hussein.",
+      "answer": 2,
+      "alternatives": [
+        "Estados Unidos da América",
+        "Iraque",
+        "Canadá",
+        "México"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/d9QiBcfzg64Io/giphy.gif",
+      "title": "Qual foi o primeiro nome que o jogo “Pac-Man” recebeu no ocidente?",
+      "description": "Alguma coisa deu errado no primeiro nome?",
+      "answer": 1,
+      "alternatives": [
+        "Pac-Man",
+        "Puck-Man",
+        "Pakkuman",
+        "Pizza-Man"
+      ]
+    },
+    {
+      "image": "https://i2.wp.com/i.giphy.com/k50G4BuvMjlO8.gif",
+      "title": "Qual o nome do primeiro chefe que aparece no jogo?",
+      "description": "'É hora de pagar!'",
+      "answer": 0,
+      "alternatives": [
+         "Simon Greedwell",
+         "Dark Horse",
+         "Sir Richard Rose",
+         "El Greco"
       ]
     }
   ],
   "external": [
     "https://aluraquiz-css.omariosouto.vercel.app/",
-    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/",
+    "https://quiz-valorant.johnatanivini.vercel.app/"
   ],
   "theme": {
     "colors": {
