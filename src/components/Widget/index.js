@@ -3,11 +3,11 @@ import styled from 'styled-components';
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
-  border: 1px solid ${({ theme }) => theme.colors.primary};;
-  background-color: ${({ theme }) => theme.colors.mainBg};;
+  border: 1px solid ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.mainBg};
+  color: ${({ theme }) => theme.colors.secondary};
   border-radius: 4px;
   overflow: hidden;
-
   h1, h2, h3 {
     font-size: 16px;
     font-weight: 700;
@@ -27,9 +27,9 @@ Widget.Header = styled.header`
   align-items: center;
   padding: 18px 32px;
   background-color: ${({ theme }) => theme.colors.primary};
-  color: ${({ theme }) => theme.colors.secondary};
-
-  *{
+  color: ${({ theme }) => theme.colors.contrastText};
+  
+  * {
     margin: 0;
   }
 `;
