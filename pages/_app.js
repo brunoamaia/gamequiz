@@ -39,7 +39,7 @@ export default function App({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
           rel="stylesheet"
         />
-        <meta property="og:image" content="https://raw.githubusercontent.com/brunoamaia/gamequiz/main/src/assests/img/bg.png" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/brunoamaia/gamequiz/main/src/assests/img/banner.png" />
 
         {/* <!-- Primary Meta Tags --> */}
         <title>Gamequiz - Quiz sobre Jogos Clássicos</title>
@@ -51,14 +51,14 @@ export default function App({ Component, pageProps }) {
         <meta property="og:url" content="https://gamequiz.vercel.app/" />
         <meta property="og:title" content="Gamequiz - Quiz sobre Jogos Clássicos" />
         <meta property="og:description" content="" />
-        <meta property="og:image" content="https://raw.githubusercontent.com/brunoamaia/gamequiz/main/src/assests/img/bg.png" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/brunoamaia/gamequiz/main/src/assests/img/banner.png" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://gamequiz.vercel.app/" />
         <meta property="twitter:title" content="Gamequiz - Quiz sobre Jogos Clássicos" />
         <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="https://raw.githubusercontent.com/brunoamaia/gamequiz/main/src/assests/img/bg.png" />
+        <meta property="twitter:image" content="https://raw.githubusercontent.com/brunoamaia/gamequiz/main/src/assests/img/banner.png" />
 
       </Head>
 
